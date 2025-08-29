@@ -3,36 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!------------------------CSS GERAL------------------------>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <!-------------------------------------------------------->
+
+    <!-----------------------CSS RESOLUÇÕES------------------->
+    <link rel="stylesheet" href="CSS/RESOLUCOES/360x800.css">
+    <link rel="stylesheet" href="CSS/RESOLUCOES/412x914.css">
+    <link rel="stylesheet" href="CSS/RESOLUCOES/1024x768.css">
+    <link rel="stylesheet" href="CSS/RESOLUCOES/1280×720.css">
+    <link rel="stylesheet" href="CSS/RESOLUCOES/1366x768.css">
+    <link rel="stylesheet" href="CSS/RESOLUCOES/1600x900.css">
+    <link rel="stylesheet" href="CSS/RESOLUCOES/1920x1080.css">
+    <!-------------------------------------------------------->
+
     <title>Conversor de Moeda</title>
 </head>
 <body>
+    <header>
+        <h1>Conversor de Moedas</h1>
+    </header>
     <main>
-        <header>
-            <h1>Conversor de Moedas</h1>
-        </header>
-
         <div id="container">
             <div id="info">
-                <p>Valores Base:
-                    &real;
-                    &dollar;
-                    &euro;
+                <p id="valores">Valores Base para o Real:
+                    <ul id="lista">
+                        <li>Dólar: R$ 5,43;
+                        <li>Euro: R$ 6,35;
+                        <li>Iene: R$ 0,037;
+                    </ul>
                 </p>
             </div>
 
             <div id="formulario">
                 <form>
-                    <label for="">De:</label>
-                    <select name="" id="">
-                        <option value="">Real</option>
-                        <option value="">Eur</option>
-                        <option value=""></option>
+                    <label for="menu">Selecione a moeda:</label>
+                    <select id="menu">
+                        <option id="dolar">&dollar; Dólar</option>
+                        <option id="euro">&euro; Euro</option>
+                        <option id="iene">&yen; Iene</option>
                     </select>
-                    
-                    <label for="">Insira o valor:</label>
+                    <label for="number">Insira o valor:</label>
                     <input type="number"><br>
-                    <button id="calc">Calcular</button>
+                    <button id="calc" type="submit">Calcular</button>
                 </form>
+            </div>
+
+            <div id="result">
+                <p id="valor">R$ 0,00</p>
             </div>
         </div>
     </main>
