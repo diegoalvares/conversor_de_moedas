@@ -21,11 +21,11 @@
     <link rel="stylesheet" href="CSS/RESOLUCOES/1920x1080.css">
     <!-------------------------------------------------------->
 
-    <title>Conversor de Moeda</title>
+    <title>Conversor para Real</title>
 </head>
 <body>
     <header>
-        <h1>Conversor de Moeda</h1>
+        <h1>Conversor para Real</h1>
     </header>
     <main>
         
@@ -41,23 +41,23 @@
             </div>
         </div>
 
-        <div id="formulario">
-            <form>
-                <label for="menu">Selecione a moeda:</label>
-                <select id="menu">
-                    <option id="dolar">&dollar; Dólar</option>
-                    <option id="euro">&euro; Euro</option>
-                    <option id="iene">&yen; Iene</option>
-                </select>
-                <br>
-                <label for="number">Insira o valor:</label>
-                <input type="number"><br>
-                <button id="calc" type="submit">Calcular</button>
-            </form>
-        </div>
+        <form>
+            <label for="menu">Selecione a moeda a ser convertida para o Real:</label>
+            <select id="menu">
+                <option id="dolar">&dollar; Dólar</option>
+                <option id="euro">&euro; Euro</option>
+                <option id="iene">&yen; Iene</option>
+            </select>
+            <br><br>
+            <label for="number">Insira o valor:</label>
+            <input type="number" placeholder="0,00"><br><br>
+            <button id="calc" type="submit">Calcular</button>
+        </form>
 
         <div id="result">
-            <p id="valor">R$ 0,00</p>
+            <p>Valor convertido em real: <br>
+                <strong id="valor">	R$ 0,00</strong>
+            </p>
         </div>
     </main>
     <footer>
