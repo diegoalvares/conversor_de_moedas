@@ -1,5 +1,5 @@
-# conversor_de_moedas
-Projeto de site onde você pode converter Real para Dólar, Euro ou Iene.
+# conversor_para_Real
+Projeto de site onde você pode converter Dólar, Euro ou Iene para Real.
 
 Resoluções aplicadas ao porjeto:
 
