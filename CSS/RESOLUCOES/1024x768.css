@@ -1,3 +1,37 @@
-@media screen and (min-width: 1024px){
-    
+@media screen and (min-width: 1024px){   
+    #container2{
+        display: flex;
+    }
+
+    form{
+        width: 600px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    form>select, form>select>option, form>input, #calc{
+        font-size: 25px;
+    }
+
+    #calc{
+        width: 580px;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+
+    #result{
+        padding: 7px;
+        margin-top: 80px;
+        height: 120px;
+    }
+
+    footer{
+        width: 1024px;
+        margin-top: 144px;
+        margin-bottom: -30px;
+    }
+
+    footer>p{
+        font-size: 22px;
+    }
 }

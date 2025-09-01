@@ -47,7 +47,7 @@ form>input::placeholder{
     color: rgb(165, 165, 165);
 }
 
-form>button{
+#calc{
     width: 315px;
     font-size: 20px;
     background-color: green;

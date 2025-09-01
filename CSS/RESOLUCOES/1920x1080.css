@@ -1,3 +1,10 @@
 @media screen and (min-width: 1920px){
-    
+    form{
+        margin-left: 280px;
+    }
+
+    footer{
+        width: 1920px;
+        margin-top: 238px;
+    }
 }

@@ -1,3 +1,12 @@
 @media screen and (min-width: 1280px){
-    
+    form{
+        width: 600px;
+        margin-right: 20px;
+        margin-left: 180px;
+    }
+
+    footer{
+        width: 1280px;
+        margin-top: 96px;
+    }
 }
