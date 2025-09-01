@@ -9,15 +9,15 @@ resultado = document.getElementById('resultado');
 function calcular (e){
     e.preventDefault();
     if (menu.value == 'Dólar'){
-        resultado.innerText = (valor.value * 5.43).toFixed(2);
+        resultado.innerText = 'R$ ' + (valor.value * 5.43).toFixed(2);
     }
     
     else if (menu.value == 'Euro'){
-        resultado.innerText = (valor.value * 6.35).toFixed(2);
+        resultado.innerText = 'R$ ' + (valor.value * 6.35).toFixed(2);
     }
 
     else if (menu.value == 'Iene'){
-        resultado.innerText = (valor.value * 0.037).toFixed(2);
+        resultado.innerText = 'R$ ' + (valor.value * 0.037).toFixed(2);
     }
 }
 
