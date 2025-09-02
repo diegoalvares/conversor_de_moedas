@@ -4,22 +4,21 @@
     }
     
     #container>#info{
-        font-size: 25px;
+        font-size: 20px;
         width: 280px;
         height: 180px;
     }
 
     form{
-        font-size: 25px;
+        font-size: 20px;
         padding: 10px;
         width: 360px;
         height: 240px;
         border-radius: 20px;
-        margin-left: 8px;
     }
 
     form>select, form>select>option, form>input, #calc{
-        font-size: 25px;
+        font-size: 20px;
     }
 
     #calc{
@@ -27,20 +26,20 @@
     }
 
     #result{
-        font-size: 30px;
+        font-size: 25px;
         padding: 3px;
         margin: 10px;
         margin-top: 30px;
     }
 
     footer{
-        width: 412px;
-        margin-top: 126px;
+        width: 100vw;
+        margin-top: 38px;
         margin-bottom: -30px;
     }
 
     footer>p{
-        font-size: 22px;
+        font-size: 18px;
     }
 
 }

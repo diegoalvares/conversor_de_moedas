@@ -14,7 +14,6 @@
         padding: 10px;
         width: 860px;
         height: 260px;
-        margin-left: 180px;
     }
 
     form>select, form>select>option, form>input, #calc{
@@ -28,14 +27,15 @@
     }
 
     #result{
-        font-size: 35px;
-        padding: 8px;
-        margin-top: 80px;
-        height: 130px;
+        margin-top: 10px;
+    }
+
+    #result>p{
+        font-size: 30px;
+        height: 60px;
     }
 
     footer{
-        width: 1600px;
-        margin-top: 193px;
+        margin-top: 25px;
     }
 }
